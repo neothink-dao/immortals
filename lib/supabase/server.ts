@@ -19,6 +19,14 @@ export async function createClient() {
         }
       },
     },
+    global: {
+      headers: {
+        "x-site-name": "Immortals",
+        "x-site-url": "https://www.joinimmortals.org",
+        "x-site-platform": "immortals",
+        "x-sender-name": "Immortals"
+      },
+    },
   })
 }
 
